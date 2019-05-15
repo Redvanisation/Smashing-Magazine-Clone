@@ -12,3 +12,61 @@
     font-weight: 100; */
 
 
+.container {
+    /* background-color: black; */
+    height: 100vh;
+}
+
+.header {
+    background-color: #d33a2c;
+    height: 25%;
+}
+
+.main {
+    /* background-color: gray; */
+
+    height: 60%;
+}
+
+.latest-articles {
+    background-color: #bc3428 ;
+    height: 10%;
+}
+
+.latest-posts {
+    background-color: #fff ;
+    height: 20%;
+}
+
+.coming-up {
+    background-color: #1b75bb ;
+    height: 10%;
+}
+
+.community-links {
+    background-color: #fff ;
+    height: 20%;
+
+}
+
+.featured {
+    background-color: #d33a2c ;
+    height: 10%;
+}
+
+.curated-posts {
+    background-color: #fff ;
+    height: 10%;
+}
+
+.newsletter {
+    background-color: #d33a2c;
+    width: 60%;
+    height: 20%;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: #d33a2c ;
+    height: 25vh;
+}
