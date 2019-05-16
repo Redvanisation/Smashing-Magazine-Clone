@@ -29,10 +29,10 @@
 }
 
 .logo-container {
- width: 220px;
+ width: 200px;
  position: relative;
  top: 2.7rem;
- left: 3rem;
+ left: 2.5rem;
 }
 
 .logo {
@@ -50,13 +50,18 @@
 
 .nav-ul {
     margin: 2rem;
+    margin-left: 0;
 }
 
 .nav-li {
     display: inline-block;
-    margin-right: 2.5rem;
+
     text-align: center;
     cursor: pointer;
+}
+
+.nav-li:not(:last-child) {
+    margin-right: .5rem;
 }
 
 
@@ -89,7 +94,7 @@
 }
 
 .li-h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 1rem;
     font-family: 'Laila', serif;
     font-weight: 600;
@@ -98,7 +103,7 @@
 .li-p {
     font-style: italic;
     font-weight: lighter;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .nav-button {
@@ -124,10 +129,80 @@
     height: 60%;
 }
 
+/* STYLING THE LATEST ARTICLE */
+
 .latest-articles {
     background-color: #bc3428 ;
     height: 10%;
 }
+
+.articles-h1 {
+
+}
+
+.article {
+
+}
+
+.article-figure {
+
+}
+
+.figure-img {
+
+}
+
+.article-figcap {
+
+}
+
+.article-h2 {
+
+}
+
+.h2-link {
+
+}
+
+.h2-link:link,
+.h2-link:visited {
+
+}
+
+.h2-span {
+
+}
+
+
+.article-ul {
+
+}
+
+.article-li {
+
+}
+
+.article-links {
+
+}
+
+.article-links:link,
+.article-links:visited {
+
+}
+
+.article-more {
+
+}
+
+.article-more:link,
+.article-more:visited {
+
+}
+
+
+
+/* STYLING LATEST POSTS SECTION */
 
 .latest-posts {
     background-color: #fff ;
