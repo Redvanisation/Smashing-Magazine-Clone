@@ -18,6 +18,11 @@
 }
 
 
+h1, h2 {
+    font-family: 'Laila', serif;
+}
+
+
 /* STYLING THE HEADER SECTION */
 
     /* styling the logo */
@@ -96,7 +101,7 @@
 .li-h2 {
     font-size: 1.5rem;
     margin: 1rem;
-    font-family: 'Laila', serif;
+
     font-weight: 600;
 }
 
@@ -133,11 +138,29 @@
 
 .latest-articles {
     background-color: #bc3428 ;
-    height: 10%;
+    /* height: 10%; */
+    padding: 1rem;
+    position: relative;
 }
 
 .articles-h1 {
+    position: relative;
+    top: 1.5rem;
+    left: 50%;
+    transform: translate(-50%,0);
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    text-align: center;
+}
 
+.h1-span {
+    background-color: #fff;
+    padding: 10px;
+    display: inline-block;
+}
+
+.h1-span:last-child  {
+    box-shadow: 0 20px 30px -3px rgba(0,0,0,.5);
 }
 
 .article {
