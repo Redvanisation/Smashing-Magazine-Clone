@@ -47,9 +47,6 @@
 
     /* styling the nav menu */
 
-.nav {
-
-}
 
 .nav-ul {
     margin: 2rem;
@@ -81,6 +78,14 @@
 
 .li-img {
     max-width: 100%;
+    transform: rotate(-15deg);
+    box-shadow: 0 3px 3px -3px rgba(00,00,00,.4);
+    transition: all .3s;
+}
+
+.nav-li:hover .li-img {
+    transform: rotate(0);
+    box-shadow: none;
 }
 
 .li-h2 {
@@ -109,10 +114,6 @@
 
 .nav-button:hover {
     color: #fff;
-}
-
-.search-icon {
-
 }
 
 
