@@ -20,10 +20,12 @@
 
 /* STYLING THE HEADER SECTION */
 
-
+    /* styling the logo */
 .header {
     background-color: #d33a2c;
     height: 25%;
+    display:flex;
+    justify-content: space-between;
 }
 
 .logo-container {
@@ -43,13 +45,81 @@
 
 }
 
+    /* styling the nav menu */
+
+.nav {
+
+}
+
+.nav-ul {
+    margin: 2rem;
+}
+
+.nav-li {
+    display: inline-block;
+    margin-right: 2.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.nav-link:link,
+.nav-link:visited {
+    text-decoration: none;
+    color: #fff;
+    transition: all .3s;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.li-icon {
+    display: inline-block;
+    width: 40px;
+}
+
+.li-img {
+    max-width: 100%;
+}
+
+.li-h2 {
+    font-size: 2rem;
+    margin: 1rem;
+    font-family: 'Laila', serif;
+    font-weight: 600;
+}
+
+.li-p {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+
+.nav-button {
+    border: 3px solid #fff;
+    padding: .5rem 1rem;
+    font-family: 'Laila', serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 5px;
+    position: relative;
+    bottom: 4rem;
+}
+
+.nav-button:hover {
+    color: #fff;
+}
+
+.search-icon {
+
+}
+
+
 
 /* STYLING THE MAIN CONTAINER */
 
-
 .main {
-    /* background-color: gray; */
-
     height: 60%;
 }
 
