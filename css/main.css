@@ -60,7 +60,6 @@ h1, h2 {
 
 .nav-li {
     display: inline-block;
-
     text-align: center;
     cursor: pointer;
 }
@@ -101,7 +100,6 @@ h1, h2 {
 .li-h2 {
     font-size: 1.5rem;
     margin: 1rem;
-
     font-weight: 600;
 }
 
@@ -138,9 +136,8 @@ h1, h2 {
 
 .latest-articles {
     background-color: #bc3428 ;
-    /* height: 10%; */
-    padding: 1rem;
     position: relative;
+    font-weight: 600;
 }
 
 .articles-h1 {
@@ -151,6 +148,7 @@ h1, h2 {
     text-transform: capitalize;
     font-size: 1.5rem;
     text-align: center;
+    z-index: 100;
 }
 
 .h1-span {
@@ -163,64 +161,140 @@ h1, h2 {
     box-shadow: 0 20px 30px -3px rgba(0,0,0,.5);
 }
 
-.article {
 
+/* ARTICLES STYLING */
+
+.article-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -6rem;
+}
+
+.article {
+    width: 50%;
+    padding: 15rem 5vw 15rem;
+    color: #fff;
+    position: relative;
+    font-weight: 700;
+    font-family: 'Laila', serif;
+}
+
+.article::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.box1 {
+    background-color: #bc3428;
+}
+.box2 {
+    background-color: #c7372a;
+}
+.box3 {
+    background-color: #b13125;
+}
+.box4 {
+    background-color: #bc3428;
 }
 
 .article-figure {
-
+    padding: .5rem 0;
+    margin-bottom: 2rem;
+    width: 70px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .figure-img {
+    max-width: 100%;
+    width: 65px;
+    height: 65px;
+    border: 5px solid #fff;
+    border-radius: 11px;
+    margin: 0 2rem 0 0;
+    transition: all .2s;
+    transform: rotateZ(-11deg);
+    box-shadow: 0 10px 20px -5px rgba(0,0,0,.5);
+}
+
+.figure-img:hover {
+    transform: rotateZ(0);
+    box-shadow: none;
 
 }
 
 .article-figcap {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.3rem;
+    position: relative;
+    top: 20px;
+}
 
+.caption-span {
+    font-weight: 100;
+    font-style: italic;
 }
 
 .article-h2 {
-
-}
-
-.h2-link {
-
+    font-size: 2rem;
+    display: inline;
+    padding: .5rem 0;
+    line-height: 1.5;
 }
 
 .h2-link:link,
 .h2-link:visited {
-
+    text-decoration: none;
+    color: #fff;
 }
 
-.h2-span {
-
+.comment-icon {
+    margin: 0 .7rem;
 }
 
 
 .article-ul {
+    padding: .5rem 0;
+    margin-top: 2.5rem;
+}
 
+.links-span {
+    color: #000;
+    margin-right: .3rem;
+    font-weight: 100;
 }
 
 .article-li {
-
-}
-
-.article-links {
-
+    display: inline-block;
+    margin-right: 2rem;
+    font-size: 1.1rem;
 }
 
 .article-links:link,
 .article-links:visited {
-
+    color: #fff;
+    text-decoration: none;
 }
 
-.article-more {
-
+.arrow-icon {
+    font-size: 3rem;
+    position: absolute;
+    bottom: 4rem;
 }
 
 .article-more:link,
 .article-more:visited {
-
+    color: #fff;
+    text-decoration: none;
 }
 
 
@@ -229,8 +303,11 @@ h1, h2 {
 
 .latest-posts {
     background-color: #fff ;
-    height: 20%;
 }
+
+
+
+/* STYLING THE COMING UP SECTION */
 
 .coming-up {
     background-color: #1b75bb ;
