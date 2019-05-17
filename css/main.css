@@ -305,11 +305,28 @@ h1, h2 {
     background-color: #fff ;
 }
 
+.latest-posts-title {
+
+}
+
+.latest-posts-line {
+ /* width: 30px; */
+}
+
 .latest-posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3rem;
 
 }
 
 .latest-post {
+    width: 33%;
+    border: 1px solid blue;
+    padding-top: 3rem;
+    padding-right: 2rem;
+    padding-bottom: 5.8rem;
+    padding-left: 2rem;
 
 }
 
@@ -318,23 +335,52 @@ h1, h2 {
 }
 
 .latest-posts-time {
-
+    color: #666;
+    display: block;
+    margin-bottom: .5em;
 }
 
 .latest-posts-h2 {
+ font-size: 1.5rem;
+ text-decoration: underline;
+ font-weight: 700;
+}
+
+
+.latest-posts-links:link,
+.latest-posts-links:visited  {
+    color: black;
+    text-decoration: none;
 
 }
 
-.latest-posts-links {
-
+.latest-posts-by{
+display: inline-block;
+color: #666;
+font-size: 1.5em;
+font-weight: 700;
 }
 
 .latest-posts-author {
+ color: #666;
+ font-size: 1.5em;
+ font-weight: 700;
+ margin: 2rem .3rem;
+ padding: 10px 0;
+ display: inline-block;
+ text-decoration: underline;
+}
 
+.latest-posts-author:hover {
+    color: #111;
 }
 
 .latest-posts-content {
-
+font-size: 22px;
+display: inline;
+word-break: break-word;
+line-height: 25px;
+color: #666;
 }
 
 
