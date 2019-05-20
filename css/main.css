@@ -516,7 +516,7 @@ cursor: pointer;
 
 .see-latest:link,
 .see-latest:visited {
-    display: inline-block; 
+    display: inline-block;
     color: #000;
     text-decoration: none;
     border-bottom: 5px solid #d33a2c;
@@ -538,8 +538,47 @@ cursor: pointer;
 
 .coming-up {
     background-color: #1b75bb ;
-    height: 10%;
+    background-image: linear-gradient(#1b75bb 40%,#2b388f 100%);
+    text-align: center;
+    overflow: hidden;
+    padding: 3.5em 0;
+    /* height: 10%; */
 }
+
+
+.coming-up-content {
+
+}
+
+.content-header {
+
+}
+
+.coming-up-date {
+
+}
+
+.coming-up-heading{
+
+}
+
+.coming-up-desc {
+
+}
+
+.coming-up-btn {
+
+}
+
+.coming-up-img-link {
+
+}
+
+.coming-up-img {
+
+}
+
+
 
 .community-links {
     background-color: #fff ;
