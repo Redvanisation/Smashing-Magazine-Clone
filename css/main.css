@@ -616,6 +616,10 @@ cursor: pointer;
  text-decoration: none;
 }
 
+.coming-up-btn:hover {
+    color: #d33a2c;
+}
+
 .coming-up-img-link {
  text-decoration: none;
  padding: 10px 0;
@@ -640,7 +644,7 @@ cursor: pointer;
     height: auto;
 }
 
-
+/* STYLING THE COMMUNITY LINKS SECTION */
 
 .community-links {
     background-color: #fff ;
