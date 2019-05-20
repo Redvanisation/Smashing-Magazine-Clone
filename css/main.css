@@ -207,7 +207,6 @@ h1, h2 {
 .article-figure {
     padding: .5rem 0;
     margin-bottom: 2rem;
-    width: 70px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -592,15 +591,12 @@ cursor: pointer;
  transition: color .1s ease-out;
 }
 
-.coming-up-link:links,
-.coming-up-link:visted {
-
-}
-
 .coming-up-desc {
     color: #fff;
     font-size: 1.5em;
     max-width: 55vw;
+    line-height: 1.7;
+    font-weight: 100;
     margin: 2rem auto 2.5rem;
     text-shadow: 1px 1px 1px rgba(0,0,0,.25);
     word-break: break-word;
@@ -619,6 +615,7 @@ cursor: pointer;
  cursor: pointer;
  outline: 0;
  text-decoration: none;
+ font-family: 'Laila', serif;
 }
 
 .coming-up-btn:hover {
@@ -628,19 +625,9 @@ cursor: pointer;
 .coming-up-img-link {
  text-decoration: none;
  padding: 10px 0;
- background-image: linear-gradient(currentColor,currentColor);
- background-repeat: no-repeat;
- background-size: 100% 1.5px;
- background-position: center bottom 29%;
- background-origin: padding-box;
  text-shadow: 3px 0 #fff, 2px 0 #fff, 1px 0 #fff, -1px 0 #fff, -2px 0 #fff, -3px 0 #fff;
  transition: color .1s ease-out;
  color: #006fc6;
-}
-
-.coming-up-img-link:links,
-.coming-up-img-link:visited {
-
 }
 
 .coming-up-img {
@@ -657,9 +644,8 @@ cursor: pointer;
 /* STYLING THE COMMUNITY LINKS SECTION */
 
 .community-links {
-    /* border: 1px solid green; */
     background-color: #fff ;
-    /* height: 20%; */
+    position: relative;
 
 }
 
@@ -669,14 +655,13 @@ cursor: pointer;
     transform: rotate(90deg);
     width: 20%;
     position: absolute;
-    bottom: -295rem;
+    top: 70px;
     left: -120px;
 
 }
 
 .community-links-line {
     width: 80px;
-    /* display: inline; */
     margin: 8px;
     border-top:.5px solid #000;
     border-bottom:.5px solid #000;
@@ -692,14 +677,16 @@ cursor: pointer;
 }
 
 .community-container {
-  width: 94vw;
+  width: 100%;
   max-width: 1440px;
+  /* margin-left: 2rem; */
   margin: 0 auto;
   /* border: 1px solid red; */
 }
 
 .community-container-row {
-
+    /* width: 90%; */
+    border: 1px solid red;
 }
 
 .community-content {
@@ -709,8 +696,9 @@ cursor: pointer;
 .community-potw {
     display: flex;
     margin-bottom: 5vh;
+    margin-left: -5rem;
     font-size: 1.2em;
-
+    width: 90%;
 }
 
 .community-potw-img {
@@ -735,7 +723,6 @@ cursor: pointer;
 }
 
 .community-potw-desc {
-    /* border: 1px solid red; */
     position: relative;
     top: 3.5rem;
     float: left;
@@ -770,7 +757,7 @@ cursor: pointer;
 
 }
 
-.community-potw-links:links,
+.community-potw-links:link,
 .community-potw-links:visited {
     color: #333;
 }
@@ -779,7 +766,96 @@ cursor: pointer;
     cursor: pointer;
 }
 
+/* styling the community articles */
 
+.articles-container-community {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid green; */
+}
+
+.community-article {
+    padding: 3rem 0;
+    /* border: 1px solid red; */
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article-img-container {
+    width: 10%;
+}
+
+.community-article-img {
+    max-width: 100%;
+    border: 3px solid #d33a2c;
+    border-radius: 11px;
+    padding: 0;
+    transition: all .2s;
+    transform: rotateZ(-11deg);
+    box-shadow: 0 10px 20px -5px rgba(0,0,0,.5);
+}
+
+.community-article-img:hover {
+    transform: rotateZ(0);
+    box-shadow: none;
+
+}
+
+
+.community-article-text-container {
+    width: 85%;
+    margin-left: 1rem;
+}
+
+.community-article-author {
+    color: #666;
+    font-family: 'Laila', serif;
+    margin: .2rem 0 1rem 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.cm-author {
+    display: inline-block;
+    border-bottom: 2px solid #666;
+    line-height: .8;
+}
+
+.community-article-title {
+    font-family: 'Laila', serif;
+    margin: 1rem 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.community-title-link:link,
+.community-title-link:visited {
+    text-decoration: none;
+    color: #000;
+    transition: all .2s;
+}
+
+.community-title-link:hover {
+    color: #d33a2c;
+}
+
+.community-article-text {
+    font-size: 1.15rem;
+    line-height: 1.5;
+    font-weight: 100;
+}
+
+.community-article-date {
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: .9rem;
+}
+
+
+
+/* STYLING THE FEATURED SECTION */
 
 
 
