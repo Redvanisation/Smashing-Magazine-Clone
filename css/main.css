@@ -676,7 +676,7 @@ cursor: pointer;
 
 .community-links-line {
     width: 80px;
-    display: inline;
+    /* display: inline; */
     margin: 8px;
     border-top:.5px solid #000;
     border-bottom:.5px solid #000;
@@ -695,7 +695,7 @@ cursor: pointer;
   width: 94vw;
   max-width: 1440px;
   margin: 0 auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .community-container-row {
@@ -715,36 +715,54 @@ cursor: pointer;
 
 .community-potw-img {
     max-width: 100%;
-    width: 150px;
-    height: 150px;
+    width: 185px;
+    height: 185px;
     border: 5px solid  #d33a2c;
     border-radius: 11px;
-    margin: 9rem 2rem 3rem 5rem;
+    margin: 6.5rem 2rem 3rem 7rem;
     transition: all .2s;
+    background: #d33a2c;
     /* transform-origin: 0 100%; */
-    /* transform: rotateZ(-11deg); */
-    transform: scale(1.2) translateX(-16%) translateY(-3%) rotateZ(-11deg);
+    transform: rotateZ(-11deg);
+    /* transform: scale(1.2) translateX(-16%) translateY(-3%) rotateZ(-11deg); */
     box-shadow: 0 10px 20px -5px rgba(0,0,0,.5);
 }
 
-.community-potw-desc {
+.community-potw-img:hover {
+    transform: rotateZ(0);
+    box-shadow: none;
 
+}
+
+.community-potw-desc {
+    /* border: 1px solid red; */
+    position: relative;
+    top: 3.5rem;
+    float: left;
+    width: 65%;
+    padding-left: 2em;
+    color: #333;
 }
 
 .community-potw-desc-heading {
     color: #666;
     letter-spacing: .1rem;
     margin: 0;
-    font-weight: 300;
+    font-weight: 100;
     text-transform: uppercase;
+    /* border: 1px solid blue; */
+    line-height: 1.2;
+    font-size: .95rem;
 }
 
 .community-potw-desc-text {
     color: #333;
-    max-width: 38em;
     margin: 1em 0;
-    word-break: break-all;
-    line-height: 1;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 34px;
+    /* font-size: 1.1em; */
+    font-size: 21px;
 }
 
 .community-potw-links {
