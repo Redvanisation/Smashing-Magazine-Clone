@@ -552,7 +552,7 @@ cursor: pointer;
  margin: 0 auto;
  padding-left: 1rem;
  padding-right: 1rem;
- border: 1px solid red;
+ /* border: 1px solid red; */
 }
 
 .content-header {
@@ -602,8 +602,9 @@ cursor: pointer;
 }
 
 .coming-up-btn {
- font-size:1rem;
- padding: .8rem 1rem;
+ font-size:1.6rem;
+ color: #267DCC;
+ padding: 1.2rem 2.3rem;
  background: #fff;
  border: 1px solid #fff;
  display: inline-block;
@@ -612,14 +613,31 @@ cursor: pointer;
  font-weight: 700;
  cursor: pointer;
  outline: 0;
+ text-decoration: none;
 }
 
 .coming-up-img-link {
-
+ text-decoration: none;
+ padding: 10px 0;
+ background-image: linear-gradient(currentColor,currentColor);
+ background-repeat: no-repeat;
+ background-size: 100% 1.5px;
+ background-position: center bottom 29%;
+ background-origin: padding-box;
+ text-shadow: 3px 0 #fff, 2px 0 #fff, 1px 0 #fff, -1px 0 #fff, -2px 0 #fff, -3px 0 #fff;
+ transition: color .1s ease-out;
+ color: #006fc6;
 }
 
 .coming-up-img {
-
+    position: relative;
+    display: block;
+    margin: 2.5em auto;
+    width: 100%;
+    max-width: 920px;
+    margin-bottom: -4em;
+    border-style: none;
+    height: auto;
 }
 
 
