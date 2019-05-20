@@ -592,6 +592,11 @@ cursor: pointer;
  transition: color .1s ease-out;
 }
 
+.coming-up-link:links,
+.coming-up-link:visted {
+
+}
+
 .coming-up-desc {
     color: #fff;
     font-size: 1.5em;
@@ -633,6 +638,11 @@ cursor: pointer;
  color: #006fc6;
 }
 
+.coming-up-img-link:links,
+.coming-up-img-link:visited {
+
+}
+
 .coming-up-img {
     position: relative;
     display: block;
@@ -647,25 +657,45 @@ cursor: pointer;
 /* STYLING THE COMMUNITY LINKS SECTION */
 
 .community-links {
+    border: 1px solid green;
     background-color: #fff ;
-    height: 20%;
+    /* height: 20%; */
 
 }
 
 .community-links-title-container {
+    display: flex;
+    flex-wrap: wrap;
+    transform: rotate(90deg);
+    width: 20%;
+    position: absolute;
+    bottom: -295rem;
+    left: -120px;
 
 }
 
 .community-links-line {
+    width: 80px;
+    display: inline;
+    margin: 8px;
+    border-top:.5px solid #000;
+    border-bottom:.5px solid #000;
 
 }
 
 .community-links-title {
-
+    display: inline;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
 }
 
 .community-container {
-
+  width: 94vw;
+  max-width: 1440px;
+  margin: 0 auto;
+  border: 1px solid red;
 }
 
 .community-container-row {
@@ -673,15 +703,28 @@ cursor: pointer;
 }
 
 .community-content {
-
+    width: 100%;
 }
 
 .community-potw {
+    display: flex;
+    margin-bottom: 5vh;
+    font-size: 1.2em;
 
 }
 
 .community-potw-img {
-
+    max-width: 100%;
+    width: 150px;
+    height: 150px;
+    border: 5px solid  #d33a2c;
+    border-radius: 11px;
+    margin: 9rem 2rem 3rem 5rem;
+    transition: all .2s;
+    /* transform-origin: 0 100%; */
+    /* transform: rotateZ(-11deg); */
+    transform: scale(1.2) translateX(-16%) translateY(-3%) rotateZ(-11deg);
+    box-shadow: 0 10px 20px -5px rgba(0,0,0,.5);
 }
 
 .community-potw-desc {
@@ -689,15 +732,33 @@ cursor: pointer;
 }
 
 .community-potw-desc-heading {
-
+    color: #666;
+    letter-spacing: .1rem;
+    margin: 0;
+    font-weight: 300;
+    text-transform: uppercase;
 }
 
 .community-potw-desc-text {
-
+    color: #333;
+    max-width: 38em;
+    margin: 1em 0;
+    word-break: break-all;
+    line-height: 1;
 }
 
 .community-potw-links {
+ color: #333;
 
+}
+
+.community-potw-links:links,
+.community-potw-links:visited {
+    color: #333;
+}
+
+.community-potw-links:hover {
+    cursor: pointer;
 }
 
 
