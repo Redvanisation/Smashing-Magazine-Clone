@@ -1015,6 +1015,7 @@ cursor: pointer;
 .curated-posts-ul {
     list-style: circle;
     padding-left: 5rem;
+    color: #811d15;
 }
 
 .curated-posts-li {
