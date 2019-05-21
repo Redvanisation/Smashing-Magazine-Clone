@@ -1,6 +1,6 @@
 # Smashing-Magazine-Clone
 
-The Smashing-Magazine-clone project is aimed at applying the knowledge of positioning and floating elements using CSS to build an exact copy of the New York Times page.
+The Smashing-Magazine-clone project is aimed at training students to think in terms of visual hierarchy, typography and design principles.
 
 ## Authors
 This projects was executed by the duo of **Radouane** & **Tunde**.
