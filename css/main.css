@@ -88,6 +88,7 @@ h1, h2 {
 .li-img {
     max-width: 100%;
     transform: rotate(-15deg);
+    transform-origin: bottom left;
     box-shadow: 0 3px 3px -3px rgba(00,00,00,.4);
     transition: all .3s;
 }
@@ -221,6 +222,7 @@ h1, h2 {
     margin: 0 2rem 0 0;
     transition: all .2s;
     transform: rotateZ(-11deg);
+    transform-origin: bottom left;
     box-shadow: 0 10px 20px -5px rgba(0,0,0,.5);
 }
 
@@ -712,6 +714,7 @@ cursor: pointer;
     background: #d33a2c;
     /* transform-origin: 0 100%; */
     transform: rotateZ(-11deg);
+    transform-origin: bottom left;
     /* transform: scale(1.2) translateX(-16%) translateY(-3%) rotateZ(-11deg); */
     box-shadow: 0 10px 20px -5px rgba(0,0,0,.5);
 }
@@ -793,6 +796,7 @@ cursor: pointer;
     padding: 0;
     transition: all .2s;
     transform: rotateZ(-11deg);
+    transform-origin: bottom left;
     box-shadow: 0 10px 20px -5px rgba(0,0,0,.5);
 }
 
@@ -858,12 +862,91 @@ cursor: pointer;
 /* STYLING THE FEATURED SECTION */
 
 
-
-
 .featured {
-    background-color: #d33a2c ;
-    height: 10%;
+    background-color: #d33a2c;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    position: relative;
+    /* height: 10%; */
 }
+
+.featured-text {
+    width: 70%;
+    padding: 3rem 6rem;
+    margin-right: 9rem;
+    /* border: 1px solid white; */
+}
+
+.featured-h3 {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px rgba(0,0,0,.3);
+}
+
+.featured-h2 {
+    display: inline-block;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    border-bottom: 3px solid #e58980;
+    line-height: .9;
+    cursor: pointer;
+}
+
+.featured-p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+
+.featured-highlight {
+    font-weight: 600;
+}
+
+.featured-button:link,
+.featured-button:visited {
+    display: inline-block;
+    background-color: #fff;
+    padding: 1.5rem 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #006fc6;
+    font-size: 1.5rem;
+    font-family: 'Laila', serif;
+    font-weight: 600;
+}
+
+.featured-button:hover {
+    color: #d33a2c;
+}
+
+
+.featured-img-container {
+    width: 15%;
+    position: relative;
+    bottom: 4rem;
+    transform: rotate(-10deg);
+    transform-origin: bottom left;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.featured-img-container:hover {
+    transform: rotate(0);
+}
+
+.featured-img {
+    max-width: 100%;
+}
+
+
+/* STYLING THE CURATED POSTS SECTION */
 
 .curated-posts {
     background-color: #fff ;
