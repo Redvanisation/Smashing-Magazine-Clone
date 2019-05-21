@@ -949,10 +949,118 @@ cursor: pointer;
 /* STYLING THE CURATED POSTS SECTION */
 
 .curated-posts {
-    background-color: #fff ;
+    background-color: #f6f3f2;
+    position: relative;
     /* height: 10%; */
 }
 
+.curated-posts-title {
+ display: flex;
+ flex-wrap: wrap;
+ transform: rotate(90deg);
+ width: 20%;
+ position: absolute;
+ top: 70px;
+ left: -120px;
+
+}
+
+.curated-posts-links-line {
+    width: 80px;
+    margin: 8px;
+    border-top:.5px solid #000;
+    border-bottom:.5px solid #000;
+}
+
+.curated-posts-links-title {
+    display: inline;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.curated-posts-container {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.curated-posts-cards {
+    /* border: 1px solid blue; */
+    width: 33.3333%;
+    margin-top: 2rem;
+}
+
+.curated-posts-cards:hover {
+    background-color: #fff;
+    transform:scale(1.03);
+    box-shadow: 0 2px 30px -3px rgba(00,00,00,.4);
+    transition: all .3s;
+}
+
+.curated-posts-header {
+ margin-bottom: 1.1em;
+ margin-left: 2.5rem;
+}
+
+.curated-posts-guides {
+    color: #666;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+    margin-bottom: 4px;
+    margin-top: 3rem;
+    font-size: 17px;
+    font-variant: small-caps;
+
+}
+
+.curated-posts-heading {
+    margin: 0 0 1.5em;
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+    line-height: 1.4;
+
+}
+
+.curated-posts-content {
+  padding-bottom: 150px;
+ }
+
+.curated-posts-ul {
+    list-style: circle;
+    padding-left: 5rem;
+}
+
+.curated-posts-li {
+    margin-bottom: .2rem;
+    padding-left: .35rem;
+    line-height: 1.5;
+
+}
+
+.curated-posts-links {
+
+    color: #006fc6;
+    text-shadow: 3px 0 #f6f3f2, 2px 0 #f6f3f2, 1px 0 #f6f3f2, -1px 0 #f6f3f2, -2px 0 #f6f3f2, -3px 0 #f6f3f2;
+    font-size: 23px;
+    text-decoration: none;
+    border-bottom: 1px solid #006fc6;
+}
+
+.curated-posts-links:links,
+.curated-posts-links:visited {
+
+
+}
+
+
+.curated-posts-banner {
+
+}
 
 
 
