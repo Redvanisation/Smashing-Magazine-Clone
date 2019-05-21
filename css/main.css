@@ -950,8 +950,11 @@ cursor: pointer;
 
 .curated-posts {
     background-color: #fff ;
-    height: 10%;
+    /* height: 10%; */
 }
+
+
+
 
 .newsletter {
     background-color: #d33a2c;
