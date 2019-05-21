@@ -1271,4 +1271,39 @@ em{
     margin-bottom: .5rem;
 }
 
+.up-button {
+    background-color: rgba(102,102,102,.8);
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    cursor: pointer;
+    transform: rotate(-15deg);
+    transform-origin: bottom left;
+    box-shadow: 0 15px 20px -3px rgba(00,00,00,.4);
+    transition: all .2s;
+}
+
+.up-button:hover {
+    transform: rotate(0);
+    box-shadow: none;
+}
+
+.up-icon {
+    color: #fff;
+    font-size: 1.8rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+::selection {
+    color: #fff;
+    text-shadow: none;
+    background: #d33a2c;
+}
+
 
