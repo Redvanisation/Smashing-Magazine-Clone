@@ -28,7 +28,7 @@ h1, h2 {
     /* styling the logo */
 .header {
     background-color: #d33a2c;
-    height: 25%;
+    /* height: 25%; */
     display:flex;
     justify-content: space-between;
 }
@@ -129,9 +129,9 @@ h1, h2 {
 
 /* STYLING THE MAIN CONTAINER */
 
-.main {
+/* .main {
     height: 60%;
-}
+} */
 
 /* STYLING THE LATEST ARTICLE */
 
@@ -878,7 +878,8 @@ cursor: pointer;
     /* border: 1px solid white; */
 }
 
-.featured-h3 {
+.featured-h3,
+.footer-title {
     display: block;
     margin-bottom: 1rem;
     font-size: .9rem;
@@ -1051,12 +1052,6 @@ cursor: pointer;
     border-bottom: 1px solid #006fc6;
 }
 
-.curated-posts-links:links,
-.curated-posts-links:visited {
-
-
-}
-
 
 .curated-posts-banner {
     /* border: 1px solid red; */
@@ -1118,8 +1113,6 @@ cursor: pointer;
     width: 470px;
     padding-top: 1rem;
     padding-bottom: 2rem;
-    /* padding-top: 1em;
-    padding-bottom: 2em; */
 }
 
 .banner-link {
@@ -1137,12 +1130,6 @@ cursor: pointer;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    /* border: 1px solid blue; */
-}
-
-
-.curated-posts-form-label {
-
 }
 
 .curated-posts-input {
@@ -1199,17 +1186,89 @@ em{
     font-style: italic;
 }
 
-
-
-
-.newsletter {
-    background-color: #d33a2c;
-    width: 60%;
-    height: 20%;
-    margin: 0 auto;
-}
+/* STYLING THE FOOTER SECTION */
 
 .footer {
-    background-color: #d33a2c ;
-    height: 25vh;
+    background-color: #d33a2c;
 }
+
+.footer-container {
+    border: 1px solid white;
+    text-align: center;
+    padding: 5rem;
+    color: #fff;
+}
+
+.footer-ul,
+.footer-ul-small {
+    margin: 3rem 0; 
+}
+
+.footer-big-li {
+    display: inline-block;
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+.footer-big-li:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.footer-big-li::before {
+    content: "\2022";
+    color: #811d15;
+    font-weight: bold;
+    display: inline-block;
+    width: 1.5rem;
+    margin-left: -1rem;
+}
+
+
+
+.footer-big-link:link,
+.footer-big-link:visited {
+    text-decoration: none;
+    color: #fff;
+    transition: all .2s;
+}
+
+
+.footer-big-link:hover {
+    color: #000;
+}
+
+.footer-ul-small {
+    width: 30%;
+    margin: 2.5rem auto 3rem;
+}
+
+
+.footer-small-li {
+    display: inline-block;
+}
+
+.footer-small-li:not(:last-child) {
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+.footer-small-link:link,
+.footer-small-link:visited {
+    color: #fff;
+}
+
+.footer-text {
+    margin-top: 5rem;
+}
+
+.footer-text-italic {
+    font-style: italic;
+    margin-bottom: .5rem;
+}
+
+.footer-text-small {
+    margin-bottom: .5rem;
+}
+
+
