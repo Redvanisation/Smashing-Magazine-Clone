@@ -698,7 +698,6 @@ cursor: pointer;
 .community-potw {
     display: flex;
     margin-bottom: 5vh;
-    margin-left: -5rem;
     font-size: 1.2em;
     width: 90%;
 }
@@ -774,6 +773,7 @@ cursor: pointer;
 .articles-container-community {
     display: flex;
     flex-wrap: wrap;
+    padding: 0 5rem;
     /* border: 1px solid green; */
 }
 
@@ -1201,7 +1201,7 @@ em{
 
 .footer-ul,
 .footer-ul-small {
-    margin: 3rem 0; 
+    margin: 3rem 0;
 }
 
 .footer-big-li {
