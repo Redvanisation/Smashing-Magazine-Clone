@@ -1013,17 +1013,28 @@ cursor: pointer;
  }
 
 .curated-posts-ul {
-    list-style: circle;
+    list-style: none;
     padding-left: 5rem;
-    color: #811d15;
 }
+
+
 
 .curated-posts-li {
     margin-bottom: .2rem;
-    padding-left: .35rem;
+    /* padding-left: .35rem; */
     line-height: 1.5;
 
 }
+
+.curated-posts-li::before {
+    content: "\2022";
+    font-size: 1.5em;
+    color: #d33a2c;
+    font-weight: bolder;
+    display: inline-block;
+    width: 1rem;
+}
+
 
 .curated-posts-links {
 
