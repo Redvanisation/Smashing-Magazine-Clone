@@ -275,11 +275,11 @@ h1, h2 {
     text-decoration: none;
 }
 
-.arrow-icon {
+/* .arrow-icon {
     font-size: 3rem;
     position: absolute;
     bottom: 4rem;
-}
+} */
 
 .article-more:link,
 .article-more:visited {
@@ -302,12 +302,12 @@ h1, h2 {
     display: flex;
     flex-wrap: wrap;
     margin-left: 3rem;
-
 }
 
 .latest-post {
     position: relative;
     width: 30%;
+    background-color: lightgray;
     /* border: 1px solid blue; */
     padding-top: 3rem;
     padding-right: 2rem;
@@ -408,7 +408,7 @@ color: #666;
 cursor: pointer;
 }
 
-.arrow-posts-icon {
+/* .arrow-posts-icon {
  position: absolute;
  left: 0;
  bottom: 0;
@@ -420,7 +420,7 @@ cursor: pointer;
  text-align: center;
  /* border: 1px solid blue; */
 
-}
+} */
 
 /* .latest-post:hover .latest-posts-links {
     color: #d33a2c;
