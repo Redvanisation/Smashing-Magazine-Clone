@@ -20,6 +20,6 @@ Open your git bash and cd to the location you'd like to put your files the run t
 
 
 Here is the link to the live version of this project
-[here](https://rawcdn.githack.com/Redvanisation/Smashing-Magazine-Clone/dc2901ec3410dfd16991c23d1b90d2c1ae6106eb/index.html )
+[here](https://rawcdn.githack.com/Redvanisation/Smashing-Magazine-Clone/cbee47507b0bbe3e5ca8a83fa44c9a0ad4261e58/index.html )
 
 
