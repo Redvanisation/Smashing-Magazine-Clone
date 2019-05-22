@@ -59,9 +59,9 @@ h1, h2 {
     transition: all .3s;
 }
 
-.nav-link:hover {
+/* .nav-link:hover {
     color: #000;
-}
+} */
 
 .li-icon {
     display: inline-block;
@@ -76,10 +76,10 @@ h1, h2 {
     transition: all .3s;
 }
 
-.nav-li:hover .li-img {
+/* .nav-li:hover .li-img {
     transform: rotate(0);
     box-shadow: none;
-}
+} */
 
 .li-h2 {
     font-size: 1.5rem;
@@ -104,9 +104,9 @@ h1, h2 {
     bottom: 4rem;
 }
 
-.nav-button:hover {
+/* .nav-button:hover {
     color: #fff;
-}
+} */
 
 
 
@@ -395,9 +395,9 @@ font-weight: 700;
  cursor: pointer;
 }
 
-.latest-posts-author:hover {
+/* .latest-posts-author:hover {
     color: #111;
-}
+} */
 
 .latest-posts-content {
 font-size: 22px;
@@ -422,21 +422,21 @@ cursor: pointer;
 
 }
 
-.latest-post:hover .latest-posts-links {
+/* .latest-post:hover .latest-posts-links {
     color: #d33a2c;
-}
+} */
 
-.latest-post:hover .arrow-posts-icon {
+/* .latest-post:hover .arrow-posts-icon {
     background-color: #1b75bb;
     color: #fff;
-}
+} */
 
-.latest-post:hover {
+/* .latest-post:hover {
     background-color: #fff;
     transform:scale(1.03);
     box-shadow: 0 2px 30px -3px rgba(00,00,00,.4);
 
-}
+} */
 
 
 .posts-features {
@@ -480,9 +480,9 @@ cursor: pointer;
     font-weight: 600;
 }
 
-.posts-features-button:hover {
+/* .posts-features-button:hover {
     color: #d33a2c;
-}
+} */
 
 .explore-features-signup {
     margin-bottom: 2rem;
@@ -517,9 +517,9 @@ cursor: pointer;
     font-weight: 100;
 }
 
-.see-latest:hover {
+/* .see-latest:hover {
     color: #d33a2c;
-}
+} */
 
 
 
@@ -610,9 +610,9 @@ cursor: pointer;
  font-family: 'Laila', serif;
 }
 
-.coming-up-btn:hover {
+/* .coming-up-btn:hover {
     color: #d33a2c;
-}
+} */
 
 .coming-up-img-link {
  text-decoration: none;
@@ -708,11 +708,11 @@ cursor: pointer;
     box-shadow: 0 10px 20px -5px rgba(0,0,0,.5);
 }
 
-.community-potw-img:hover {
+/* .community-potw-img:hover {
     transform: rotateZ(0);
     box-shadow: none;
 
-}
+} */
 
 .community-potw-desc {
     position: relative;
@@ -754,9 +754,9 @@ cursor: pointer;
     color: #333;
 }
 
-.community-potw-links:hover {
+/* .community-potw-links:hover {
     cursor: pointer;
-}
+} */
 
 /* styling the community articles */
 
@@ -790,11 +790,11 @@ cursor: pointer;
     box-shadow: 0 10px 20px -5px rgba(0,0,0,.5);
 }
 
-.community-article-img:hover {
+/* .community-article-img:hover {
     transform: rotateZ(0);
     box-shadow: none;
 
-}
+} */
 
 
 .community-article-text-container {
@@ -830,9 +830,9 @@ cursor: pointer;
     transition: all .2s;
 }
 
-.community-title-link:hover {
+/* .community-title-link:hover {
     color: #d33a2c;
-}
+} */
 
 .community-article-text {
     font-size: 1.15rem;
@@ -913,9 +913,9 @@ cursor: pointer;
     font-weight: 600;
 }
 
-.featured-button:hover {
+/* .featured-button:hover {
     color: #d33a2c;
-}
+} */
 
 
 .featured-img-container {
@@ -928,9 +928,9 @@ cursor: pointer;
     cursor: pointer;
 }
 
-.featured-img-container:hover {
+/* .featured-img-container:hover {
     transform: rotate(0);
-}
+} */
 
 .featured-img {
     max-width: 100%;
@@ -985,12 +985,12 @@ cursor: pointer;
     margin-top: 2rem;
 }
 
-.curated-posts-cards:hover {
+/* .curated-posts-cards:hover {
     background-color: #fff;
     transform:scale(1.03);
     box-shadow: 0 2px 30px -3px rgba(00,00,00,.4);
     transition: all .3s;
-}
+} */
 
 .curated-posts-header {
  margin-bottom: 1.1em;
@@ -1038,7 +1038,8 @@ cursor: pointer;
 .curated-posts-li::before {
     content: "\2022";
     font-size: 1.5em;
-    color: #d33a2c;
+    /* color: #d33a2c; */
+    color: black;
     font-weight: bolder;
     display: inline-block;
     width: 1rem;
@@ -1047,11 +1048,13 @@ cursor: pointer;
 
 .curated-posts-links {
 
-    color: #006fc6;
+    /* color: #006fc6; */
+     color: black;
     text-shadow: 3px 0 #f6f3f2, 2px 0 #f6f3f2, 1px 0 #f6f3f2, -1px 0 #f6f3f2, -2px 0 #f6f3f2, -3px 0 #f6f3f2;
     font-size: 23px;
     text-decoration: none;
-    border-bottom: 1px solid #006fc6;
+    /* border-bottom: 1px solid #006fc6; */
+
 }
 
 
@@ -1084,7 +1087,7 @@ cursor: pointer;
     text-shadow: 1px 1px 1px rgba(0,0,0,.25);
     font-size: 2rem;
     font-weight: 600;
-    margin: 1rem 
+    margin: 1rem
 }
 
 .banner-head-link {
@@ -1269,7 +1272,7 @@ em{
 .footer-text-small {
     margin-bottom: .5rem;
 }
-/* 
+/*
 .up-button {
     background-color: rgba(102,102,102,.8);
     height: 45px;
