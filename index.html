@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Smashing Magazine Clone</title>
+    <link href="https://fonts.googleapis.com/css?family=Laila:400,500,600" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+        <header class="header" id="up">
+            <div class="logo-container">
+                <picture class="logo">
+                    <source media="(min-width:1350px)" srcset="img/logo--full.svg">
+                        <img src="img/logo.svg" alt="smashing logo" class="img-logo" >
+                </picture>
+            </div>
+            <nav class="nav">
+                <ul class="nav-ul">
+                    <li class="nav-li">
+                        <a href="#" class="nav-link">
+                            <!-- <span class="li-icon">
+                                <img src="img/articles.svg" alt=" " class="li-img">
+                            </span> -->
+                            <h2 class="li-h2">Articles</h2>
+                            <p class="li-p">Design & Development</p>
+                        </a>
+                    </li>
+
+                    <li class="nav-li">
+                        <a href="#" class="nav-link">
+                            <!-- <span class="li-icon">
+                                <img src="img/books.svg" alt=" " class="li-img">
+                            </span> -->
+                            <h2 class="li-h2">Books</h2>
+                            <p class="li-p">Physical & digital books</p>
+                        </a>
+                    </li>
+
+                    <li class="nav-li">
+                        <a href="#" class="nav-link">
+                            <!-- <span class="li-icon">
+                                <img src="img/events.svg" alt=" " class="li-img">
+                            </span> -->
+                            <h2 class="li-h2">Events</h2>
+                            <p class="li-p">Conferences & workshops</p>
+                        </a>
+                    </li>
+
+                    <li class="nav-li">
+                        <a href="#" class="nav-link">
+                            <!-- <span class="li-icon">
+                                <img src="img/jobs.svg" alt=" " class="li-img">
+                            </span> -->
+                            <h2 class="li-h2">Jobs</h2>
+                            <p class="li-p">Find work & employees</p>
+                        </a>
+                    </li>
+
+                    <li class="nav-li">
+                        <a href="#" class="nav-link">
+                            <!-- <span class="li-icon">
+                                <img src="img/membership.svg" alt=" " class="li-img">
+                            </span> -->
+                            <h2 class="li-h2">Membership</h2>
+                            <p class="li-p">Webinars & early-birds</p>
+                        </a>
+                    </li>
+
+                    <!-- <li class="nav-li">
+                        <a href="#" class="nav-link nav-button">
+                                <i class="fas fa-search search-icon"></i> Topics
+                        </a>
+                    </li> -->
+                </ul>
+            </nav>
+
+        </header>
+
+        <main class="main">
+            <section class="latest-articles">
+                <h1 class="articles-h1">
+                    <span class="h1-span">Don't miss these latest</span><br>
+                    <span class="h1-span">articles</span>
+                </h1>
+
+                <div class="article-container">
+                    <article class="article box1">
+                        <figure class="article-figure">
+                            <!-- <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/78bc6245-e572-4436-8ac4-47aa3c6f770a/kristofer-selbekk-profile.jpg" alt="author image" class="figure-img"> -->
+                            <figcaption class="article-figcap">
+                                Kristofer Selbekk <span class="caption-span">wrote</span>
+                            </figcaption>
+                        </figure>
+                        <h2 class="article-h2"> <a href="#" class="h2-link">Creating Your Own React Validation Library: The Basics (Part 1)</a> </h2>
+                        <span class="h2-span"><i class="fas fa-comment-alt comment-icon"></i>Leave a comment</span>
+                        <ul class="article-ul">
+                            <li class="article-li"><a href="#" class="article-links"><span class="links-span">#</span>React</a> </li>
+                            <li class="article-li"><a href="#" class="article-links"><span class="links-span">#</span>JavaScript</a> </li>
+                            <li class="article-li"><a href="#" class="article-links"><span class="links-span">#</span>Forms</a> </li>
+                        </ul>
+                        <!-- <a href="#" class="article-more"><i class="fas fa-long-arrow-alt-right arrow-icon"></i></a> -->
+                    </article>
+
+                    <article class="article box2">
+                        <figure class="article-figure">
+                            <!-- <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f6c344ac-502d-41dc-a0a4-a16d06281298/web-page-sequence.png" alt="author image" class="figure-img"> -->
+                            <figcaption class="article-figcap">
+                                Richard Leddy <span class="caption-span">wrote</span>
+                            </figcaption>
+                        </figure>
+                        <h2 class="article-h2"> <a href="#" class="h2-link">SVG Web Page Components For IoT And Makers (Part 2)</a> </h2>
+                        <span class="h2-span"><i class="fas fa-comment-alt comment-icon"></i>Leave a comment</span>
+                        <ul class="article-ul">
+                            <li class="article-li"><a href="#" class="article-links"><span class="links-span">#</span>JavaScript</a> </li>
+                            <li class="article-li"><a href="#" class="article-links"><span class="links-span">#</span>Vue</a> </li>
+                            <li class="article-li"><a href="#" class="article-links"><span class="links-span">#</span>SVG</a> </li>
+                        </ul>
+                        <!-- <a href="#" class="article-more"><i class="fas fa-long-arrow-alt-right arrow-icon"></i></a> -->
+                    </article>
+
+                    <article class="article box3">
+                        <figure class="article-figure">
+                            <!-- <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/41c652ff-f16b-435a-80b2-2e138542f2ca/stefan-kaltenegger-profile.jpg" alt="author image" class="figure-img"> -->
+                            <figcaption class="article-figcap">
+                                Stefan Kaltenegger <span class="caption-span">wrote</span>
+                            </figcaption>
+                        </figure>
+                        <h2 class="article-h2"> <a href="#" class="h2-link">How Frontend Developers Can Help To Bridge The Gap Between Designers And Developers</a> </h2>
+                        <span class="h2-span"><i class="fas fa-comment-alt comment-icon"></i>Leave a comment</span>
+                        <ul class="article-ul">
+                            <li class="article-li"><a href="#" class="article-links"><span class="links-span">#</span>Workflow</a> </li>
+                            <li class="article-li"><a href="#" class="article-links"><span class="links-span">#</span>Communication</a> </li>
+                        </ul>
+                        <!-- <a href="#" class="article-more"><i class="fas fa-long-arrow-alt-right arrow-icon"></i></a> -->
+                    </article>
+
+                    <article class="article box4">
+                        <figure class="article-figure">
+                            <!-- <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/6f60ba6a-465e-42fb-b501-1329d45bf084/vitaly-friedman-profile-pic.jpg" alt="author image" class="figure-img"> -->
+                            <figcaption class="article-figcap">
+                                Vitaly Friedman <span class="caption-span">wrote</span>
+                            </figcaption>
+                        </figure>
+                        <h2 class="article-h2"> <a href="#" class="h2-link">Setting Up A Digital Policy: An Interview With Kristina Podnar</a> </h2>
+                        <span class="h2-span"><i class="fas fa-comment-alt comment-icon"></i>Leave a comment</span>
+                        <ul class="article-ul">
+                            <li class="article-li"><a href="#" class="article-links"><span class="links-span">#</span>Interviews</a> </li>
+                            <li class="article-li"><a href="#" class="article-links"><span class="links-span">#</span>Business</a> </li>
+                        </ul>
+                        <!-- <a href="#" class="article-more"><i class="fas fa-long-arrow-alt-right arrow-icon"></i></a> -->
+                    </article>
+                </div>
+            </section>
+
+            <div class="latest-posts">
+                <!-- <div class="title-container">
+                    <hr class="latest-posts-line">
+                    <h2 class="latest-posts-title">
+                        Latest Posts
+                    </h2>
+                </div> -->
+                <div class="latest-posts-container">
+                    <div class="row">
+                        <article class="latest-post">
+                            <header class="header-latest-posts">
+                                <span class="latest-posts-time">7 Days ago</span>
+                                <h2 class="latest-posts-h2">
+                                    <a href="#" class="latest-posts-links">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, velit!
+                                    </a>
+                                </h2>
+                                <span class="latest-posts-by">by</span><span class="latest-posts-author">Lorem Ipsum</span>
+                            </header>
+                            <p class="latest-posts-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quas nisi enim cumque, ipsam fuga! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam nemo quae non magni nesciunt officia. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, modi.
+                            </p>
+                            <!-- <a href="#" class="latest-post-more"><span class="arrow-posts-icon">→</span></a> -->
+                        </article>
+                        <article class="latest-post">
+                            <header class="header-latest-posts">
+                                <span class="latest-posts-time">7 Days ago</span>
+                                <h2 class="latest-posts-h2">
+                                    <a href="#" class="latest-posts-links">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, velit!
+                                    </a>
+                                </h2>
+                                <span class="latest-posts-by">by</span><span class="latest-posts-author">Lorem Ipsum</span>
+                            </header>
+                            <p class="latest-posts-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quas nisi enim cumque, ipsam fuga! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam nemo quae non magni nesciunt officia. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, modi.
+                            </p>
+                            <!-- <a href="#" class="latest-post-more"><span class="arrow-posts-icon">→</span></a> -->
+                        </article>
+                        <article class="latest-post">
+                            <header class="header-latest-posts">
+                                <span class="latest-posts-time">7 Days ago</span>
+                                <h2 class="latest-posts-h2">
+                                    <a href="#" class="latest-posts-links">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, velit!
+                                    </a>
+                                </h2>
+                                <span class="latest-posts-by">by</span><span class="latest-posts-author">Lorem Ipsum</span>
+                            </header>
+                            <p class="latest-posts-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quas nisi enim cumque, ipsam fuga! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam nemo quae non magni nesciunt officia. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, modi.
+                            </p>
+                            <!-- <a href="#" class="latest-post-more"><span class="arrow-posts-icon">→</span></a> -->
+                        </article>
+                    </div>
+
+                    <div class="row">
+                        <!-- <div class="posts-features">
+                            <img src="https://d33wubrfki0l68.cloudfront.net/aea2faf51cc69a1e10bb434aa92f7c3821f16787/e4922/images/smashing-cat/singing-barista.svg" alt="cat" class="posts-features-img">
+                            <h2 class="posts-features-h2">
+                                <span class="underline-red">1,492 smashing</span> <br><span class="underline-red">members</span>
+                            </h2>
+                            <p class="posts-features-p">
+                                A friendly community that keeps this website alive. With books, webinars, discounts and networking — for just 1 coffee a month. <span class="underline-red">Join the family.</span>
+                            </p>
+                            <a href="#" class="posts-features-button">Explore features →</a>
+                            <p class="explore-features-signup">Already have an account? <span class="underline-red">Sign in!</span></p>
+                        </div> -->
+
+                        <article class="latest-post">
+                            <header class="header-latest-posts">
+                                <span class="latest-posts-time">7 Days ago</span>
+                                <h2 class="latest-posts-h2">
+                                    <a href="#" class="latest-posts-links">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, velit!
+                                    </a>
+                                </h2>
+                                <span class="latest-posts-by">by</span><span class="latest-posts-author">Lorem Ipsum</span>
+                            </header>
+                            <p class="latest-posts-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quas nisi enim cumque, ipsam fuga! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam nemo quae non magni nesciunt officia. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, modi.
+                            </p>
+                            <!-- <a href="#" class="latest-post-more"><span class="arrow-posts-icon">→</span></a> -->
+                        </article>
+                        <article class="latest-post">
+                            <header class="header-latest-posts">
+                                <span class="latest-posts-time">7 Days ago</span>
+                                <h2 class="latest-posts-h2">
+                                    <a href="#" class="latest-posts-links">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, velit!
+                                    </a>
+                                </h2>
+                                <span class="latest-posts-by">by</span><span class="latest-posts-author">Lorem Ipsum</span>
+                            </header>
+                            <p class="latest-posts-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quas nisi enim cumque, ipsam fuga! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam nemo quae non magni nesciunt officia. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, modi.
+                            </p>
+                            <!-- <a href="#" class="latest-post-more"><span class="arrow-posts-icon">→</span></a> -->
+                        </article>
+                        <article class="latest-post">
+                            <header class="header-latest-posts">
+                                <span class="latest-posts-time">7 Days ago</span>
+                                <h2 class="latest-posts-h2">
+                                    <a href="#" class="latest-posts-links">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, velit!
+                                    </a>
+                                </h2>
+                                <span class="latest-posts-by">by</span><span class="latest-posts-author">Lorem Ipsum</span>
+                            </header>
+                            <p class="latest-posts-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quas nisi enim cumque, ipsam fuga! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam nemo quae non magni nesciunt officia. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, modi.
+                            </p>
+                            <!-- <a href="#" class="latest-post-more"><span class="arrow-posts-icon">→</span></a> -->
+                        </article>
+                        
+                    </div>
+
+                    <!-- <div class="row">
+                        <article class="latest-post">
+                            <header class="header-latest-posts">
+                                <span class="latest-posts-time">7 Days ago</span>
+                                <h2 class="latest-posts-h2">
+                                    <a href="#" class="latest-posts-links">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, velit!
+                                    </a>
+                                </h2>
+                                <span class="latest-posts-by">by</span><span class="latest-posts-author">Lorem Ipsum</span>
+                            </header>
+                            <p class="latest-posts-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quas nisi enim cumque, ipsam fuga! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam nemo quae non magni nesciunt officia. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, modi.
+                            </p>
+                            <a href="#" class="latest-post-more"><span class="arrow-posts-icon">→</span></a>
+                        </article>
+                        <article class="latest-post">
+                            <header class="header-latest-posts">
+                                <span class="latest-posts-time">7 Days ago</span>
+                                <h2 class="latest-posts-h2">
+                                    <a href="#" class="latest-posts-links">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, velit!
+                                    </a>
+                                </h2>
+                                <span class="latest-posts-by">by</span><span class="latest-posts-author">Lorem Ipsum</span>
+                            </header>
+                            <p class="latest-posts-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quas nisi enim cumque, ipsam fuga! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam nemo quae non magni nesciunt officia. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, modi.
+                            </p>
+                            <a href="#" class="latest-post-more"><span class="arrow-posts-icon">→</span></a>
+                        </article>
+
+                        <div class="posts-features">
+                            <img src="https://d33wubrfki0l68.cloudfront.net/72280e1450d4ecfc45ef96ea00b27b4bf4ef5d06/eb759/images/smashing-cat/cat-smashing-tv-2.svg" alt="cat" class="posts-features-img">
+                            <h2 class="posts-features-h2">
+                                <span class="underline-red">New on Smashing TV
+                                </span>
+                            </h2>
+                            <p class="posts-features-p">
+                                A channel where seasoned developers show how they design, build, work and play. Coming up next: <span class="underline-red2">Inspired Design Decisions: Inspired by Pressing Matters Magazine</span> with Andrew Clarke (May 21).
+                            </p>
+                            <a href="#" class="posts-features-button">See all upcoming episodes →</a>
+                            <p class="explore-features-signup">Already have an account? <span class="underline-red">Sign in!</span></p>
+                        </div>
+                    </div> -->
+
+                    <!-- <div class="posts-see">
+                        <a href="#" class="see-latest">see all latest articles →</a>
+                    </div> -->
+                </div>
+            </div>
+            <!-- <section class="coming-up">
+                <div class="coming-up-content">
+                    <header class="content-header">
+                        <span class="coming-up-date">COMING UP NEXT <span
+                        class="coming-up-bullet">•</span> JUNE
+                        25-26, 2019</span>
+                        <h2 class="coming-up-heading"><a href="#" class="coming-up-link">SmashingConf Toronto 2019</a></h2>
+                    </header>
+                    <p class="coming-up-desc">Improving accessibility and
+                    front-end workflow, reactoring, security, interface design
+                    patterns, CSS Grid techniques, performance, Git and how to
+                    write better Javascript.</p>
+                    <a href="#" class="coming-up-btn">Explore all speakers and
+                    topics→</a>
+                    <a href="#" class="coming-up-img-link">
+                        <img src="https://d33wubrfki0l68.cloudfront.net/9bac1fff1f9f07a2f78fe65e8d2f6ae0bc62f6e6/d0b43/images/smashing-cat/space-cat-toronto.svg" alt="A blue banner that shows the SmashingConf
+                        Rocket Scientist Cat, with her helmet taken off." class="coming-up-img">
+                    </a>
+                </div>
+            </section> -->
+
+            <div class="community-links">
+                <!-- <div class="community-links-title-container">
+                    <hr class="community-links-line">
+                    <h4 class="community-links-title">
+                            community
+                            links
+                    </h4>
+                </div> -->
+                <div class="community-container">
+                        <div class="community-content">
+                            <!-- <div class="community-potw"> -->
+                                <!-- <img
+                                src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/08056b46-e486-4ff1-9222-8ddd4b85ec43/diana-mounter-250px-opt.png"
+                                alt="Diana Mounter, the person of the week"
+                                class="community-potw-img"> -->
+                                <!-- <div class="community-potw-desc">
+                                    <h4 class="community-potw-desc-heading">Person Of The
+                                    Week</h4>
+                                    <p
+                                    class="community-potw-desc-text">Passionate
+                                    about the web and with a background in
+                                    user-centered design, <a
+                                   class="community-potw-links" href="http://broccolini.net">Diana
+                                    Mounter</a> is leading design operations and
+                                    systems at GitHub. She’s also the organizer
+                                    of <a class="community-potw-links"
+                                    href="https://designsystems.nyc/">Design
+                                    Systems Coalition NYC</a>, a community for
+                                    people who build design systems to share and
+                                    learn from each other. You can find her <a class="community-potw-links"
+                                    href="http://broccolini.net/#talks">speaking</a>
+                                    at conferences and meetups around the world
+                                    or follow her <a class="community-potw-links"
+                                    href="http://broccolini.net/#writing">writing</a>
+                                    about design, code, and working with people.
+                                    She goes by <a class="community-potw-links"
+                                    href="https://twitter.com/broccolini">@broccolini</a>
+                                    on Twitter. Thank you for sharing and
+                                    caring, dear Diana!</p>
+                                </div> -->
+                            <!-- </div> -->
+
+                            <div class="articles-container-community">
+                                <article class="community-article">
+
+                                    <!-- <div class="article-img-container"> -->
+                                        <!-- <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/b733e056-c0b7-4f7d-97a0-4852e4062088/jeremy-thomas-100px-opt.png" alt="author image" class="community-article-img"> -->
+                                    <!-- </div> -->
+
+                                    <div class="community-article-text-container">
+                                        <h3 class="community-article-author"><span class="cm-author">Jeremy Thomas</span> shared</h3>
+                                        <h2 class="community-article-title"><a href="" class="community-title-link">JavaScript In 14 Minutes</a></h2>
+                                        <p class="community-article-text">
+                                            <span class="community-article-date">may 20, 2019</span>
+                                            —Jeremy Thomas’ interactive tutorial teaches you the basics of JavaScript in 14 minutes. Great for beginners.
+                                        </p>
+                                    </div>
+
+                                </article>
+
+                                <article class="community-article">
+
+                                        <!-- <div class="article-img-container"> -->
+                                            <!-- <img src="https://res.cloudinary.com/indysigner/image/upload/v1558074016/omar-shehata-100px-opt_fbnikv.png" alt="author image" class="community-article-img"> -->
+                                        <!-- </div> -->
+
+                                        <div class="community-article-text-container">
+                                            <h3 class="community-article-author"><span class="cm-author">Omar Shehata</span> shared</h3>
+                                            <h2 class="community-article-title"><a href="" class="community-title-link">Unraveling The JPEG</a></h2>
+                                            <p class="community-article-text">
+                                                <span class="community-article-date">may 17, 2019</span>
+                                                —“Unraveling the JPEG” is an interactive exploration of how to decode a JPEG image, shedding light on the layers of compression, perception, vision, and what details our eyes are most sensitive to.
+                                            </p>
+                                        </div>
+
+                                </article>
+                                <article class="community-article">
+
+                                        <!-- <div class="article-img-container"> -->
+                                            <!-- <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/1668aab6-ba7d-4a45-90e7-b3767251c499/trys-mudford-100px-opt.png" alt="author image" class="community-article-img"> -->
+                                        <!-- </div> -->
+
+                                        <div class="community-article-text-container">
+                                            <h3 class="community-article-author"><span class="cm-author">Trys Mudford</span> shared</h3>
+                                            <h2 class="community-article-title"><a href="" class="community-title-link">Building A JavaScript Guitar Pedalboard</a></h2>
+                                            <p class="community-article-text">
+                                                <span class="community-article-date">may 16, 2019</span>
+                                                —Trys Mudford launched a side project that is a crossover of his coding and guitaring hobbies: a JavaScript guitar pedalboard coded in Vanilla.js with the Web Audio API and Web MIDI API.
+                                            </p>
+                                        </div>
+
+                                </article>
+                                <article class="community-article">
+
+                                        <!-- <div class="article-img-container"> -->
+                                            <!-- <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/2132c612-7a37-494f-9aa7-d6ddb5b0eba4/brodie-pointon-100px-opt.png" alt="author image" class="community-article-img"> -->
+                                        <!-- </div> -->
+
+                                        <div class="community-article-text-container">
+                                            <h3 class="community-article-author"><span class="cm-author">Brodie Pointon</span> shared</h3>
+                                            <h2 class="community-article-title"><a href="" class="community-title-link">Flight Icon</a></h2>
+                                            <p class="community-article-text">
+                                                <span class="community-article-date">may 15, 2019</span>
+                                                —Flight Icon is an animated icon pack built for iOS, Android, web, and video. Each icon is free and has a GIF and JSON version so it’s ready to deploy immediately.
+                                            </p>
+                                        </div>
+
+                                </article>
+                                <article class="community-article">
+
+                                        <!-- <div class="article-img-container"> -->
+                                            <!-- <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/0e156516-e1ac-40be-8a1d-753c1d7ee979/anthony-douglas-100px-opt.png" alt="author image" class="community-article-img"> -->
+                                        <!-- </div> -->
+
+                                        <div class="community-article-text-container">
+                                            <h3 class="community-article-author"><span class="cm-author">Anthony Douglas</span> shared</h3>
+                                            <h2 class="community-article-title"><a href="" class="community-title-link">Fun With MutationObserver</a></h2>
+                                            <p class="community-article-text">
+                                                <span class="community-article-date">may 14, 2019</span>
+                                                —Inspired by Louis Lazaris’ article about the MutationObserver API, Anthony Douglas created a Codepen in which an observer watches for changes to the items of a list.
+                                            </p>
+                                        </div>
+
+                                </article>
+                                <article class="community-article">
+
+                                        <!-- <div class="article-img-container"> -->
+                                            <!-- <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f157fae6-6b0d-4d53-a38a-136747ff2eba/lea-verou-100px-opt.png" alt="author image" class="community-article-img"> -->
+                                        <!-- </div> -->
+
+                                        <div class="community-article-text-container">
+                                            <h3 class="community-article-author"><span class="cm-author">Lea Verou</span> shared</h3>
+                                            <h2 class="community-article-title"><a href="" class="community-title-link">Convert SVG Paths</a></h2>
+                                            <p class="community-article-text">
+                                                <span class="community-article-date">may 13, 2019</span>
+                                                —Lea Verou built a quick utility to convert SVG paths to all-relative or all-absolute commands. You can read more about it in her blog post.
+                                            </p>
+                                        </div>
+
+                                </article>
+
+                                <!-- <div class="posts-see">
+                                        <a href="#" class="see-latest">MORE LINKS ON TWITTER →</a>
+                                </div> -->
+
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+            <!-- <section class="featured">
+                <div class="featured-text">
+                    <h3 class="featured-h3">FEATURED SMASHING BOOK</h3>
+                    <h2 class="featured-h2">Design Systems</h2>
+                    <p class="featured-p">
+                        Meet <span class="featured-highlight">Design Systems</span>, a recent Smashing book in which Alla Kholmatova explores how to set up an <span class="featured-highlight">effective design system</span> to create great digital products. With common traps, gotchas and lessons learned.
+                    </p>
+                    <a href="#" class="featured-button">Table of Contents ↬</a>
+                </div>
+                <div class="featured-img-container">
+                    <img src="https://res.cloudinary.com/indysigner/image/upload/v1542959380/shop/design-systems-hardcover-book.png" alt="Book Image" class="featured-img">
+                </div>
+            </section> -->
+
+            <section class="curated-posts">
+                <!-- <div class="curated-posts-title">
+                        <hr class="curated-posts-links-line">
+                        <h4 class="curated-posts-links-title">
+                                curated posts
+                        </h4>
+                </div> -->
+                <div class="curated-posts-container">
+                    <div class="curated-posts-cards">
+                        <header class="curated-posts-header">
+                            <h3 class="curated-posts-guides">guides</h3>
+                            <h2 class="curated-posts-heading">Lorem ipsum dolor sit amet consectetur.</h2>
+                        </header>
+                        <div class="curated-posts-content">
+                        <ul class="curated-posts-ul">
+                            <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                            <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                            <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                            <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                            <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                            <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                            <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                            <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="curated-posts-cards">
+                        <header class="curated-posts-header">
+                            <h3 class="curated-posts-guides">guides</h3>
+                            <h2 class="curated-posts-heading">Lorem ipsum dolor sit amet consectetur.</h2>
+                        </header>
+                        <div class="curated-posts-content">
+                        <ul class="curated-posts-ul">
+                            <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                            <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                            <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                            <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                            <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                            <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                            <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                            <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="curated-posts-cards">
+                        <header class="curated-posts-header">
+                            <h3 class="curated-posts-guides">guides</h3>
+                            <h2 class="curated-posts-heading">Lorem ipsum dolor sit amet consectetur.</h2>
+                        </header>
+                        <div class="curated-posts-content">
+                        <ul class="curated-posts-ul">
+                            <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                            <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                            <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                            <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                            <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                            <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                            <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                            <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="curated-posts-cards">
+                            <header class="curated-posts-header">
+                                <h3 class="curated-posts-guides">guides</h3>
+                                <h2 class="curated-posts-heading">Lorem ipsum dolor sit amet consectetur.</h2>
+                            </header>
+                            <div class="curated-posts-content">
+                            <ul class="curated-posts-ul">
+                                <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                                <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                                <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                                <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                                <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                                <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                                <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                                <li class="curated-posts-li"> <a href="#" class="curated-posts-links">Lorem, ipsum dolor.</a></li>
+                            </ul>
+                            </div>
+                        </div>
+                    <div class="curated-posts-banner">
+                        <div class="curated-posts-banner-content">
+                            <h2 class="curated-posts-banner-head">
+                                    <a href="#" class="banner-head-link">Smashing Newsletter</a>
+                            </h2>
+                            <p class="curated-posts-banner-intro">
+                                Imagine you wrote a beautiful song and nobody
+                                discovered it.<br> That would make any cat
+                                sad. Don't let that happen!
+                            </p>
+                            <figure class="curated-posts-banner-image">
+                                <a href="#" class="banner-link"><img src="https://d33wubrfki0l68.cloudfront.net/ce7741e1659c0366fda51555365194e0bfd136c0/ae578/images/smashing-cat/cat-with-trampet.svg" alt="A quite musical cat." class="banner-image"></a>
+                            </figure>
+                            <!-- <form action="#" class="curated-posts-form">
+                                <label for="email"
+                                class="curated-posts-form-label">
+                                    <input type="email"
+                                    class="curated-posts-input" name="EMAIL"
+                                    id="email" placeholder="Your (jazzy) email" required>
+                                </label>
+                                <button class="curated-posts-btn">
+                                        <span class="curated-posts-label">Subscribe<span class="curated-posts-arrow">→</span></span>
+                                </button>
+                            </form> -->
+                            <div class="curated-posts-footer">
+                               <p class="curated-posts-text"> <a href="#"
+                                class="curated-post-footer-link">Useful tips for
+                                web designers.</a> Sent 2x a month.<br>You can
+                                unsubscribe any time - <em>obviously</em>.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- <div class="posts-see">
+                        <a href="#" class="see-latest">SEE ALL ARTICLES →</a>
+                    </div> -->
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer-container">
+                <h3 class="footer-title">BROWSE ALL SMASHING MAGAZINE TOPICS</h3>
+                <ul class="footer-ul">
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">Accessibility</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">Android</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">Animation</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">Apps</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">CSS</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">Design</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">Design Paterns</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">Design Systems</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">E-Commerce</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">Freebies</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">Graphics</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">HTML</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">Illustrator</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">Inspiration</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">iOS</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">JavaScript</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">Mobile</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">Pattern Libraries</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">performance</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">Photoshop</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">Plugins</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">React</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">Responsive Web Design</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">Service Workers</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">Sketch</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">Typography</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">UI</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">Usability</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">User Experience</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">Wallpapers</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">Web Design</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">WordPress</a></li>
+                    <li class="footer-big-li"><a href="#" class="footer-big-link">Workflow</a></li>
+                </ul>
+
+                <div class="footer-text">
+                    <p class="footer-text-italic">With a commitment to quality content for the design community.</p>
+                    <p class="footer-text-small">Founded by Vitaly Friedman and Sven Lennartz. 2006–2019.</p>
+                    <p class="footer-text-small">Smashing is proudly running on <span class="underline-red">Netlify</span>.</p>
+                    <p class="footer-text-small">Fonts by <span class="underline-red">Latinotype</span>.</p>
+                </div>
+
+                <ul class="footer-ul-small">
+                    <li class="footer-small-li">✎ <a href="#" class="footer-small-link">Write for us</a></li>
+                    <li class="footer-small-li"><a href="#" class="footer-small-link">Contact us</a></li>
+                    <li class="footer-small-li"><a href="#" class="footer-small-link">About us(Impressum)</a></li>
+                    <li class="footer-small-li"><a href="#" class="footer-small-link">Privacy policy</a></li>
+                    <li class="footer-small-li"><a href="#" class="footer-small-link">Membership login</a></li>
+                    <li class="footer-small-li"><a href="#" class="footer-small-link">Delivery times</a></li>
+                    <li class="footer-small-li"><a href="#" class="footer-small-link">Advertise</a></li>
+                </ul>
+            </div>
+        </footer>
+
+        <!-- <div class="up-button"><a href="#up" class="up-button-link"><i class="fas fa-chevron-up up-icon"></i></a></div> -->
+</body>
+</html>
